@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/tour.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/tour.js"></script>
+    <script src="../js/progressbar.min.js"></script>
+</head>
+<body>
+ 
+ <div id="container"></div>
+<script>
+    var bar = new ProgressBar.Line(container, {
+      strokeWidth: 0.3,
+      easing: 'easeInOut',
+      duration: 1400,
+      color: '#444',
+      trailColor: '#eee',
+      trailWidth: 0.3,
+      svgStyle: {width: '100%', height: '100%'}
+    });
+
+    bar.animate(1.0);
+</script>
+ 
+  <header id="header">
+      <div class="inner">
+          <div class="logo">
+          <div class="menu_button"><a href="#">≡</a></div>
+          <a href="#">Wonder Tour</a>
+          </div>
+          <div class="info">
+              <div class="clock">◎ 09:00AM — 05:00PM</div>
+              <div class="call">◎ +1 323-913-4688</div>
+              <div class="getfree"><a href="#">Get a Free Quate</a></div>
+              
+          </div>
+          <nav>
+              <ul id="gnb">
+                  <li><a href="#">Home</a>
+                      <ul class="sub">
+                          <li><a href="#">sub1</a></li>
+                          <li><a href="#">sub2</a></li>
+                          <li><a href="#">sub3</a></li>
+                          <li><a href="#">sub4</a></li>
+                          <li><a href="#">sub5</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#">About</a>
+                      <ul class="sub">
+                          <li><a href="#">sub1</a></li>
+                          <li><a href="#">sub2</a></li>
+                          <li><a href="#">sub3</a></li>
+                          <li><a href="#">sub4</a></li>
+                          <li><a href="#">sub5</a></li>
+                      </ul>                  
+                  </li>
+                  <li><a href="#">Our Tours</a>
+                      <ul class="sub">
+                          <li><a href="#">sub1</a></li>
+                          <li><a href="#">sub2</a></li>
+                          <li><a href="#">sub3</a></li>
+                          <li><a href="#">sub4</a></li>
+                          <li><a href="#">sub5</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#">Gallery</a>
+                      <ul class="sub">
+                          <li><a href="#">sub1</a></li>
+                          <li><a href="#">sub2</a></li>
+                          <li><a href="#">sub3</a></li>
+                          <li><a href="#">sub4</a></li>
+                          <li><a href="#">sub5</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#">Blog</a>
+                      <ul class="sub">
+                          <li><a href="#">sub1</a></li>
+                          <li><a href="#">sub2</a></li>
+                          <li><a href="#">sub3</a></li>
+                          <li><a href="#">sub4</a></li>
+                          <li><a href="#">sub5</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#">Contact Us</a>
+                      <ul class="sub">
+                          <li><a href="#">sub1</a></li>
+                          <li><a href="#">sub2</a></li>
+                          <li><a href="#">sub3</a></li>
+                          <li><a href="#">sub4</a></li>
+                          <li><a href="#">sub5</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#">Pages</a>
+                      <ul class="sub">
+                          <li><a href="#">sub1</a></li>
+                          <li><a href="#">sub2</a></li>
+                          <li><a href="#">sub3</a></li>
+                          <li><a href="#">sub4</a></li>
+                          <li><a href="#">sub5</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </nav>
+          <div class="menu_right">
+              <a href="#">★</a>
+              <a href="#">★</a>
+              <a href="#">★</a>
+              <a href="#">★</a>
+          </div>
+          
+      </div>
+  </header>
+  
+  <div class="move_page"></div>
+  <section id="visual"></section>
+  
+  <section id="con1" class="content">
+      <div class="inner">
+          <div class="box">
+              <div class="box_pic"></div>
+              <div class="box_title">Balloon Flights</div>
+          </div>
+           <div class="box">
+              <div class="box_pic"></div>
+              <div class="box_title">Mountain Holiday</div>
+          </div>
+          <div class="box">
+              <div class="box_pic"></div>
+              <div class="box_title">Beach Holidays</div>
+          </div>
+      </div>
+  </section>
+  <section id="con2" class="content">
+      <div class="inner">
+          <div class="box">
+              <div class="box_pic"></div>
+          </div>
+          <div class="box">
+              <div class="box_title">Discover New Horizons</div>
+              <div class="box_submenu">ABOUT US</div>
+              <div class="box_submenu">WHY CHOOSE US</div>
+              <div class="box_submenu">OUR MISSION</div>
+              <div class="box_txt">
+                  Wonder Tour is committed to bringing our clients the best in value and quality travel arrangements. We are passionate about travel and sharing the world's wonders with you.
+              </div>
+              <div class="box_button"><a href="#">Get in Touch</a></div>
+              <div class="box_button"><a href="#">Read More</a></div>
+          </div>
+      </div>
+  </section>
+  <section id="con3" class="content">
+      <div class="inner">
+          <div class="title">Our Services</div>
+          <div class="box">
+              <div class="box_title">Personalized Matching</div>
+              <div class="box_txt">Our unique matching system lets you find just the tour you want for your next holiday.</div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="box">
+              <div class="box_title">Wide Variety of Tours</div>
+              <div class="box_txt">We offer a wide variety of personally picked tours with destinations all over the globe.</div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              
+          </div>
+          <div class="box">
+              <div class="box_title">Highly Qualified Service</div>
+              <div class="box_txt">Our tour managers are qualified, skilled, and friendly to bring you the best service.</div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="box">
+              <div class="box_title">24/7 Support</div>
+              <div class="box_txt">You can always get professional support from our staff 24/7 and ask any question you have.</div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="box">
+              <div class="box_title">Handpicked Hotels</div>
+              <div class="box_txt">Our team offers only the best selection of affordable and luxury hotels to our clients.</div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="box">
+              <div class="box_title">Best Price Guarantee</div>
+              <div class="box_txt">If you find tours that are cheaper than ours, we will compensate the difference.</div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </div>
+  </section>
+<section id="con4" class="content">
+    <div class="inner">
+       <div class="title">Hot Tours</div>
+        <div class="box">
+            <div class="box_pic"></div>
+            <div class="box_title">Spain, Benidorn</div>
+            <div class="star">★★★★★ 4 customer</div>
+            <div class="box_txt">reviews Benidorm is a buzzing resort with a big reputation for beach holidays. Situated in sunny Costa Blanca, the town is one of the original Spanish beach resorts...</div>
+            <div class="box_button">
+                <a href="#">Buy This Tour</a>
+            </div>
+            <div class="icon">$790</div>
+        </div>
+        <div class="box">
+            <div class="box_pic"></div>
+            <div class="box_title">Mauritiys Island, Africa</div>
+            <div class="star">★★★★★ 5 customer</div>
+            <div class="box_txt">reviews The beautiful and inviting island nation of Mauritius is an ideal ‘flop and drop’ at the conclusion of your safari. Indulge in the delightful scents of the fragrant... </div>
+            <div class="box_button">
+                <a href="#">Buy This Tour</a>
+            </div>
+            <div class="icon">$890</div>
+        </div>
+    </div>
+  </section>
+  <section id="con5" class="content">
+      <div class="inner">
+          <div class="title">Different People - One Mission</div>
+          <div class="icon">
+              <div class="icon_pic"></div>
+              <div class="icon_box">
+              <div class="icon_title">Diana Robinson</div>
+              <div class="icon_subtitle">Founder, Owner </div>
+              <div class="icon_txt">+1 323-913-4688</div>
+              </div>
+          </div>
+          <div class="icon">
+              <div class="icon_pic"></div>
+              <div class="icon_box">
+              <div class="icon_title">Peter McMillan</div>
+              <div class="icon_subtitle">Travel Agent </div>
+              <div class="icon_txt">+1 323-913-4688</div>
+              </div>
+          </div>
+          <div class="icon">
+              <div class="icon_pic"></div>
+              <div class="icon_box">
+              <div class="icon_title">Jill Peterson</div>
+              <div class="icon_subtitle">Tour Consultant </div>
+              <div class="icon_txt">+1 323-913-4688</div>
+              </div>
+          </div>
+          <div class="icon">
+              <div class="icon_pic"></div>
+              <div class="icon_box">
+              <div class="icon_title">James Smith</div>
+              <div class="icon_subtitle">PR Manager </div>
+              <div class="icon_txt">+1 323-913-4688</div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section id="con6" class="content">
+      <div class="title_1">First-class Impressions</div>
+      <div class="title_2">are Waiting for You!</div>
+      <div class="txt">Our agency offers travelers various tours and excursions with destinations all over the world. Browse our website to find your dream tour!</div>
+      <div class="book_button"><a href="#">Book a Tour Now</a></div>
+  </section>
+  <section id="con7" class="content">
+      <div class="inner">
+         <div class="title">What People Say</div>
+          <div class="icon">
+              <div class="icon_pic"></div>
+              <div class="icon_box">
+              <div class="icon_txt">Just wanted to say many, many thanks for helping me set up an amazing Costa Rican adventure! My nephew and I had a great time! All of the accommodations were perfect, thank you!</div>
+              <div class="icon_button"><a href="#">Rupert Wood</a></div>
+              </div>
+          </div>
+          <div class="icon">
+              <div class="icon_pic"></div>
+              <div class="icon_box">
+              <div class="icon_txt">I wanted to thank you very much for planning the trip to France for my sister and me. It was amazing and exceeded my expectations! We had a wonderful time and were very pleased.</div>
+              <div class="icon_button"><a href="#">Catherine Williams</a></div>
+              </div>
+          </div>
+          <div class="icon">
+              <div class="icon_pic"></div>
+              <div class="icon_box">
+              <div class="icon_txt">We had a marvelous time in our travels to Madagascar, Zimbabwe, and Botswana, we had just wonderful experiences. Your service was amazing and everyone was very attentive!</div>
+              <div class="icon_button"><a href="#">Sam Peterson</a></div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section id="con8" class="content">
+      <div class="title_1">Sign Up for 25% Discount</div>
+      <div class="txt">Want to get an instant discount for your next tour? Leave your email and sign up for our newsletter with 25% off all our offers.</div>
+      <div class="wrap">
+      <div class="inner">
+      <input type="email" placeholder="Enter Your E-mail">
+      <div class="sub_button"><a href="#">Subscribe</a></div>
+      </div>
+      </div>
+
+  </section>
+  <section id="con9" class="content">
+      <div class="inner">
+          <div class="title">Latest Blog Posts</div>
+          <div class="box">
+              <div class="box_pic"></div>
+              <div class="wrap">
+                  <div class="box_title">Top 10 Hotels: Rating by Wonder Tour Travel Experts</div>
+                  <div class="box_txt">MAY 17, 2018</div>
+              </div>
+          </div>
+          <div class="box">
+              <div class="box_pic"></div>
+              <div class="wrap">
+                  <div class="box_title">Your Personal Guide to 5 Best Places to Visit on Earth</div>
+                  <div class="box_txt">MAY 12, 2018</div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section id="con10" class="content">
+      <div class="gallery_wrap">
+          <div class="gallery">Gallery</div>
+          <div class="box_pic"></div>
+          <div class="box_pic"></div>
+          <div class="box_pic"></div>
+          <div class="box_pic"></div>
+          <div class="box_pic"></div>
+          <div class="box_pic"></div>
+      </div>
+  </section>
+  
+  <footer id="footer">
+      <div class="inner">
+          <div class="box">
+              <div class="box_title">CONTACT US</div>
+              <div class="msg">
+                  <div class="call">
+                  <div class="icon">♣</div>
+                  <a href="#">+1 323-913-4688</a>
+                  </div>
+                  <div class="mail">
+                  <div class="icon">♣</div>
+                  <a href="#">info@demolink.org</a>
+                  </div>
+                  <div class="address">
+                  <div class="icon">♣</div>
+                  <a href="#">4730 Crystal Springs Dr, Los Angeles, CA 90027</a>
+                  </div>
+              </div>
+          </div>
+          <div class="box">
+              <div class="box_title">POPULAR NEWS</div>
+              <div class="box_txt">
+              <a href="#">Your Personal Guide to 5 Best Places to Visit on Earth</a>
+              <h5> May 04, 2018</h5> 
+              <a href="#">Top 10 Hotels: Rating by Wonder Tour Travel Experts</a>
+              <h5> May 04, 2018</h5>
+              </div>
+          </div>
+          <div class="box">
+              <div class="box_title">QUICK LINKS</div>
+              <ul class="link">
+                  <li>●<a href="#">About us</a></li>
+                  <li>●<a href="#">Our Tours</a></li>
+                  <li>●<a href="#">Our Team</a></li>
+                  <li>●<a href="#">Gallery</a></li>
+                  <li>●<a href="#">Blog</a></li>
+              </ul>
+              <div class="get_button"><a href="#">Get in Touch</a></div>
+          </div>
+          <div class="under_bar">
+              <div class="under1">© 2020 Wonder Tour. All rights reserved. Design by Zemez</div>
+              <div class="under2">★★★★</div>
+              <div class="under3">Privacy Policy</div>
+          </div>
+      </div>
+  </footer>
+   
+    
+</body>
+</html>
